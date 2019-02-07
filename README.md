@@ -30,16 +30,14 @@ You will see two python files, which is 'lab3_code.py' and 'si507_project_1.py'.
 
 
 [HOW TO RUN]
-To run this program in the virtual environment,
-1. Open terminal or any command prompt you have.
-
-First of all, we have to make and activate the virtual environment.
-2. Type: python3 -m venv project1-env
-3. Type: source project1-env/bin/activate
-4. Type: pip install -r requirements.txt
+- Open terminal or any command prompt you have.
+To run this program in the virtual environment, first of all, we are going to make and activate the virtual environment.
+- Type: python3 -m venv project1-env
+- Type: source project1-env/bin/activate
+- Type: pip install -r requirements.txt
 
 Since 'requirements.txt' contains Flask, now you will have flask app in your virtual environment.
 To run 'si507_project_1.py' file,
-5. Type: python SI507_project_1.py runserver
-Then, open Chrome or Safari and go to http://localhost:5000/
-You will see 'Welcome to the banking application!' in the window.
+- Type: python SI507_project_1.py runserver
+- Then, open Chrome or Safari and go to http://localhost:5000/
+  * You will see 'Welcome to the banking application!' in the window.
