@@ -16,16 +16,16 @@ You will see two python files, which is 'lab3_code.py' and 'si507_project_1.py'.
 3. There are total six routes.
   - http://localhost:5000/
     You will see "Welcome to the banking application!"
-  - http://localhost:5000/bank/<name>
-    You will see "Welcome to <name>!"
-  - http://localhost:5000/dollar/<amt>
-    You will see "<amt> Dollar(s)!"
-  - http://localhost:5000/yuan/<amt>
-    You will see "<amt> Yuan(s)!"
-  - http://localhost:5000/pound/<amt>
-    You will see "<amt> Pound(s)!"
-  - http://localhost:5000/bank/<name>/<currency>/<value>
-    You will see "Welcome to the <name> bank! <name> Bank holds the <currency> currency and currently holds <value> of <currency>."
+  - http://localhost:5000/bank/[name]
+    You will see "Welcome to [name]!"
+  - http://localhost:5000/dollar/[amt]
+    You will see "[amt] Dollar(s)!"
+  - http://localhost:5000/yuan/[amt]
+    You will see "[amt] Yuan(s)!"
+  - http://localhost:5000/pound/[amt]
+    You will see "[amt] Pound(s)!"
+  - http://localhost:5000/bank/[name]/[currency]/[value]
+    You will see "Welcome to the [name] bank! [name] Bank holds the [currency] currency and currently holds [value] of [currency]."
 4. Depends on what you put in the URL, the sentence will vary.
 
 
