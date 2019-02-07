@@ -42,7 +42,7 @@ class Currency:
         self.base_rate = 1 #always
 
     def conversion(self, result_currency_reference):
-        if(type(self) == Pound):
+        if (type(self) == Pound):
             rate = Pound.rate
         elif (type(self) == Yuan):
             rate = Yuan.rate

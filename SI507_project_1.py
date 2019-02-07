@@ -40,7 +40,10 @@ def overall(name, currency, value):
         random_elm = Pound
 
     else:
-        return "Invalid URL inputs for bank"
+        return "WRONG INPUT DETECTED. Please make sure that currency should be 'dollar','yuan', or 'pound'."
 
     overall_inst = Bank(name, random_elm, int(value))
-    return overall_inst.__str__
+    return overall_inst.__str__()
+
+if __name__ == '__main__':
+    app.run()
